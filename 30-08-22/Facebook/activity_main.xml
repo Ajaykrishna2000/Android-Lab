@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:visibility="visible"
+    android:background="#4267B2"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="180dp"
+        android:text="FACEBOOK"
+        android:textColor="#F5F8F5F5"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:text="Log in to Facebook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="240dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal" />
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="375sp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="300sp"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:backgroundTint="#F5F8F5F5" />
+
+    <EditText
+        android:id="@+id/psw1"
+        android:layout_width="375sp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="360sp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:backgroundTint="#F5F8F5F5"/>
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="259sp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80sp"
+        android:layout_marginTop="420sp"
+        android:textColor="#4267B2"
+        android:textSize="18sp"
+        android:backgroundTint="#F5F8F5F5"
+        android:text="LOG IN" />
+
+</RelativeLayout>
