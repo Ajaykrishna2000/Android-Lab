@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="10dp">
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="378dp"
+        android:layout_height="92dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="150dp"
+        android:ems="10"
+        android:gravity="right"
+        android:hint="First Number"
+        android:textSize="30dp"
+        android:inputType="textPersonName"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="140dp" />
+
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="378dp"
+        android:layout_height="92dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="250dp"
+        android:ems="10"
+        android:gravity="right"
+        android:hint="Second Number"
+        android:textSize="30dp"
+        android:inputType="textPersonName"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="257dp" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="380dp"
+        android:text="+"
+        android:textSize="45dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="380dp" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="145dp"
+        android:layout_marginTop="380dp"
+        android:text="-"
+        android:textSize="45dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="380dp" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="380dp"
+        android:text="*"
+        android:textSize="45dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="371dp" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="480dp"
+        android:text="/"
+        android:textSize="45dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="475dp" />
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="145dp"
+        android:layout_marginTop="480dp"
+        android:text="%"
+        android:textSize="45dp"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="475dp"
+        tools:ignore="MissingConstraints"/>
+
+    <Button
+        android:id="@+id/btn6"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="480dp"
+        android:text="C"
+        android:textSize="45dp"
+        tools:layout_editor_absoluteX="278dp"
+        tools:layout_editor_absoluteY="475dp"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="365dp"
+        android:layout_height="85dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="580dp"
+        android:gravity="center"
+        android:hint="Answer"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="587dp"
+        tools:ignore="MissingConstraints" />
+
+</RelativeLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:visibility="visible"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:layout_marginTop="150dp"
+        android:textSize="45sp"
+        android:textAlignment="center"
+        android:textColor="#2EACE4"
+        android:textFontWeight="20"
+        android:text="TEXT VIEWER" />
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="375sp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="22sp"
+        android:layout_marginTop="250sp"
+        android:ems="10"
+        android:hint="Please enter here..."
+        android:inputType="textPersonName"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="375sp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="22sp"
+        android:layout_marginTop="320sp"
+        android:ems="10"
+        android:hint="Values display here..."
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="259sp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="85sp"
+        android:layout_marginTop="385sp"
+        android:background="#2EACE4"
+        android:text="Submit" />
+
+</RelativeLayout>
